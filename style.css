@@ -1,0 +1,88 @@
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: Courier;
+	font-size: 16px;
+}
+	h1, h2 {
+		font-family: Fantasy;
+	}
+	h1 {
+		color: darkcyan;
+		font-family: Fantasy;
+		font-weight: 200;
+		letter-spacing: 1px;
+		font-size: 45px;
+	}
+	h2 {
+		color: rgb(90, 90, 90);
+		font-family: Fantasy;
+		font-weight: 100;
+		letter-spacing: 1px;
+		font-size: 25px;
+	}
+	a {
+		text-decoration: none;
+		color: darkcyan;
+	}
+	a:hover {
+		color: darkorange;
+	}
+	
+	/* Custom design with class */
+	.container {
+		width: 700px;
+		margin: 50px auto;
+	}
+
+	@media (max-width: 750px) {
+		.container {
+			width: 600px;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.container {
+			width: 400px;
+		}
+	}
+
+	.box-white {
+		background: white;
+		padding: 60px;
+		box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+		border-radius: 25px;
+		margin: 20px;
+		border: 2px solid black;
+		text-align: center;
+	}
+	.img-circle {
+		border-radius: 50%;
+	}
+	.btn-darkcyan {
+		background-color: darkcyan;
+		color: white;
+		padding: 8px 12px;
+		border-radius: 25px;
+	}
+	.btn-darkcyan:hover {
+		background-color: darkorange;
+		color: white;
+	}
+	.list-horizontal {
+		list-style: none;
+		padding-left: 0px;
+	}
+	.list-horizontal li {
+		display: inline;
+		padding: 10px;
+	}
+	.list-horizontal i {
+		font-size: 50px;
+	}
+
+	/* Design adjustments using id */
+	#introduction p {
+		margin-bottom: 40px;
+		margin-top: 25px;
+	}
